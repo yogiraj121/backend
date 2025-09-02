@@ -6,15 +6,12 @@
     "dev": "nodemon server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"no build step\""
+    "build": "echo\"no build step\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "engines": {
-    "node": ">=18"
-  },
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
