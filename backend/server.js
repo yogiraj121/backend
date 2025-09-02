@@ -17,8 +17,8 @@ app.get("/health", (_req, res) => {
 });
 
 // Routes
-const studentsRouter = require("./students/routes");
-const uploadsRouter = require("./uploads/routes");
+const studentsRouter = require("./src/students/routes");
+const uploadsRouter = require("./src/uploads/routes");
 app.use("/api/students", studentsRouter);
 app.use("/api/uploads", uploadsRouter);
 
