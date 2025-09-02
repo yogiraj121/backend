@@ -12,9 +12,6 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "engines": {
-    "node": ">=18"
-  },
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
