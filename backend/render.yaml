@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: backend
+    env: node
+    rootDir: .
+    buildCommand: npm ci
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
